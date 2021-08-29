@@ -1,11 +1,17 @@
 import React from 'react'
+import './Home.css'
+import Sidebar from "./Sidebar"
+import Twittes from './Twittes';
+import Trends from './Trends';
 
 const Home = () => {
-    return (
-        <div>
-            <h1>welcome to twitter</h1>
-        </div>
-    )
+  return (
+    <>
+     <Sidebar />
+     <Twittes />
+     <Trends />
+    </>
+  )
 }
 
 export default Home
